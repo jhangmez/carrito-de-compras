@@ -28,13 +28,14 @@ function App() {
 2. Use the `useCarrito` hook in your components:
 
 ```jsx
-import { useCarrito } from 'carrito-react';
+import { useCarrito } from 'carrito-de-compras'
 
-function MiComponente() {
-  const { addItem, removeItem, getItemCount, getTotalPrice } = useCarrito();
+function MyComponent() {
+  const { addItem, removeItem, getItemCount, getTotalPrice } = useCarrito()
 
   // Use the shopping cart features here
 }
+```
 
 ## API
 
@@ -62,4 +63,3 @@ MIT
   <img src="https://avatars.githubusercontent.com/u/60937214?v=4" width="40" style="margin-right: 10px;"/>
   <span>Hecho con ❤️ por Jhan Gómez P.</span>
 </div>
-```
