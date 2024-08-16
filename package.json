@@ -1,6 +1,6 @@
 {
   "name": "carrito-de-compras",
-  "version": "2.0.1",
+  "version": "2.1",
   "description": "Hook de React para adminsitrar un carrito de compras, optimizado para aplicaciones Next.js App router.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -17,7 +17,8 @@
     "react",
     "nextjs",
     "shopping-cart",
-    "ecommerce"
+    "ecommerce",
+    "ssr"
   ],
   "author": "jhangmez",
   "license": "MIT",
